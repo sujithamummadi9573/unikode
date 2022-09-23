@@ -1,0 +1,13 @@
+def fib(x):
+    n1,n2=0,1
+    count=0
+    while count<x:
+        print(n1)
+        n3=n1+n2
+        n1=n2
+        n2=n3
+        count+=1
+n=int(input())
+fib(n)
+
+    
