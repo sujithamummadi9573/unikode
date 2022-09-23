@@ -1,0 +1,6 @@
+n=int(input())
+d=5
+a=6
+for i in range(0,n):
+    a=a+d*i
+    print(a,end=" ")
