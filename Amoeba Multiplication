@@ -1,0 +1,10 @@
+i=int(input("Enter the number of months \n"))
+a=0
+b=1
+count=2
+while count<i:
+    c=a+b
+    a=b
+    b=c
+    count=count+1
+print("The amoeba size is",c)
