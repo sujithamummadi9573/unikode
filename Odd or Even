@@ -1,0 +1,52 @@
+Skip to main content
+unikode
+
+Dashboard
+My courses
+Fundamentals of Python Programming - ECE
+Recursion
+Odd or Even
+Fundamentals of Python Programming - ECE
+Participants 
+Badges 
+Competencies 
+Grades
+Description
+Submission
+Edit
+Submission view
+Odd or Even
+Requested files: recur.py (Download)
+Type of work: Individual work
+Write a Program to determine whether a given number is even or odd recursively
+
+Input & Output Format:
+
+Input consists of one integer.
+
+Output consists of a string .
+
+If the value is even then display "Even!" or else display "Odd!.
+
+Sample Input & Output:
+
+6
+
+
+Even!
+
+Requested files
+recur.py
+
+VPL
+Jump to...
+Jump to...
+def evenorodd(x):
+    if(x>0):
+        if(x%2==0):
+            print('Even!')
+        else:
+            print('Odd!')
+            
+a=int(input())            
+evenorodd(a)
