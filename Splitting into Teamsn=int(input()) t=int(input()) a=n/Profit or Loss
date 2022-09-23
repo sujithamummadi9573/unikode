@@ -1,0 +1,10 @@
+x=float(input("Enter the price of a dozen mangoes\n")) # buying price
+y=float(input("Enter the price at which 1 mango is being sold\n")) # selling price
+output=x-y*12
+if(output==0):
+    print('no profit nor loss')
+elif(output<0):
+    print('profit : Rs.',"%.2f" %abs(output))
+else:
+    print('loss : Rs.',"%.2f" %output)
+    
