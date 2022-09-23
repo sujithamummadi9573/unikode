@@ -1,0 +1,10 @@
+n=int(input("Enter the number of items \n"))
+t=float(input("Enter the single item heating time \n"))
+if (n==1):
+    print("The recommended heating time is","%.2f" %t)
+elif(n==2):
+    print("The recommended heating time is","%.2f" %(1.5*t))
+elif(n==3):
+    print("The recommended heating time is","%.2f" %(2*t))
+else:
+    print("number of items is more")
