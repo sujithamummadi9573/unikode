@@ -1,0 +1,12 @@
+n1=int(input())
+n2=int(input())
+sum=1
+if(n1>n2):
+    x=n1
+else:
+    x=n2
+while x!=0:
+    if x%n1==0 and x%n2==0:
+        print("lcm of",n1,"and",n2,"is",x)
+        break
+    x=x+1
