@@ -1,0 +1,10 @@
+x=str(input())
+y=int(input())
+if(x=='front' and y==1):
+    print('Left Handed')
+elif(x=='rear' and y==2):
+    print('Left Handed')
+elif(x=='front' and y==2):
+    print('Right Handed')
+elif(x=='rear' and y==1):
+    print('Right Handed')
