@@ -1,0 +1,4 @@
+p=int(input())
+r=int(input())
+t=float(input())
+print((p*t*r)/100)
